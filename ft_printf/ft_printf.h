@@ -20,7 +20,6 @@
 # include "limits.h"
 # define TYPES "sSpdDioOuUxXcC%"
 # define FLAGS "#+-0 "
-//			   '#+-0 '
 # define NUM_TYPES "hh h l ll j z"
 
 typedef struct 			s_format

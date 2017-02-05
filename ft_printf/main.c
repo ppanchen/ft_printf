@@ -18,8 +18,8 @@
 
 int		main(int argc, char **argv)
 {
-	printf("ret(or) = %d\n", printf("{%030S}", L"我是一只猫。"));
-	printf("ret(my) = %d\n", ft_printf("{%030S}", L"我是一只猫。"));
+	printf("ret(or) = %d\n", printf("% 4.5i", 42));
+	printf("ret(my) = %d\n", ft_printf("% 4.5i", 42));
 	printf("ret(or) = %d\n", printf("%.5c", 0));
 	printf("ret(my) = %d\n", ft_printf("%.5c", 0));
 //	TEST("%#.O", 0);

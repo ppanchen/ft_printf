@@ -100,6 +100,12 @@ char				*space_handler(char **str, t_format f)
 		retstr = ft_strjoin(retstr, *str);
 		ft_strdel(&tmp);
 	}
+	else if (f.flags[4] == 1)
+	{
+		tmp = retstr;
+		retstr = ft_strjoin(" ", retstr);
+		ft_strdel(&tmp);
+	}
 	else
 		retstr = ft_strdup(*str);
 	return (retstr);
