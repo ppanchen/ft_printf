@@ -86,7 +86,7 @@ char				*space_handler(char **str, t_format f)
 		retstr = ft_strdup(*str);
 	else if (f.flags[4] == 1 && ft_atoi(*str) != 0 && f.flags[1] == 0 &&
 			(f.spec == 'i' || f.spec == 'd' || f.spec == 'D') &&
-			((f.before_dot <= f.after_dot || f.after_dot == -1)))
+			((f.before_dot <= f.after_dot || f.before_dot == 0)))
 		retstr = ft_strjoin(" ", *str);
 	else if (f.before_dot > ft_strlen(*str))
 	{
