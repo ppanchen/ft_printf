@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ft_printf1">
-				<Option output="/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/ft_printf1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug"/>
+				<Option output="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/ft_printf1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ft_printf1/fast">
-				<Option output="/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/ft_printf1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug"/>
+				<Option output="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/ft_printf1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,266 +75,266 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/p/ppanchen/projects/ft_printfgitcline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_atof.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_atof.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_atoi.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_atoi.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_bzero.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_bzero.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_cwords.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_cwords.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_isalnum.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_isalnum.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_isalpha.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_isalpha.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_isascii.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_isascii.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_isdigit.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_isdigit.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_isprint.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_isprint.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_itoa.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_itoa.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_itoa_base.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_itoa_base.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_lstadd.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_lstadd.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_lstdel.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_lstdel.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_lstdelone.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_lstdelone.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_lstiter.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_lstiter.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_lstmap.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_lstmap.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_lstnew.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_lstnew.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memalloc.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memalloc.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memccpy.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memccpy.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memchr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memchr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memcmp.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memcmp.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memcpy.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memcpy.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memdel.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memdel.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memmove.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memmove.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_memset.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_memset.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_modul.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_modul.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_numlen.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_numlen.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_pow.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_pow.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/Handlers/flags_handler.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/Handlers/flags_handler.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/Handlers/flags_handler2.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/Handlers/flags_handler2.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/Handlers/type_handlers_cper.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/Handlers/type_handlers_cper.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/Handlers/type_handlers_oouuxxu.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/Handlers/type_handlers_oouuxxu.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/Handlers/type_handlers_spdduiuu.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/Handlers/type_handlers_spdduiuu.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/UHandlers/unicode_chars.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/UHandlers/unicode_chars.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/UHandlers/utools.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/UHandlers/utools.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/UHandlers/wchar_paste.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/UHandlers/wchar_paste.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/ft_printf.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/ft_printf.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/ft_printf.h">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/ft_printf.h">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/ft_printf_parser.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/ft_printf_parser.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/main.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/main.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_printf/paste_arg.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_printf/paste_arg.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putchar.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putchar.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putchar_fd.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putchar_fd.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putendl.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putendl.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putendl_fd.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putendl_fd.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putnbr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putnbr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putnbr_fd.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putnbr_fd.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putstr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putstr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_putstr_fd.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_putstr_fd.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strcat.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strcat.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strchr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strchr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strclen.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strclen.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strclr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strclr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strcmp.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strcmp.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strcount.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strcount.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strcpy.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strcpy.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strdel.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strdel.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strdup.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strdup.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strequ.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strequ.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_striter.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_striter.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_striteri.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_striteri.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strjoin.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strjoin.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strlcat.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strlcat.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strlen.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strlen.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strmap.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strmap.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strmapi.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strmapi.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strncat.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strncat.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strncmp.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strncmp.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strncpy.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strncpy.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strnequ.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strnequ.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strnew.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strnew.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strnstr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strnstr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strrchr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strrchr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strrev.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strrev.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strsplit.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strsplit.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strstr.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strstr.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strsub.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strsub.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_strtrim.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_strtrim.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_tolower.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_tolower.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_toupper.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_toupper.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/ft_words.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/ft_words.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/get_next_line.c">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/get_next_line.c">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/get_next_line.h">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/get_next_line.h">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/libft.h">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/libft.h">
 			<Option target="ft_printf1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printf1/CMakeLists.txt">
+		<Unit filename="/nfs/2016/p/ppanchen/projects/ft_printfgitcline/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

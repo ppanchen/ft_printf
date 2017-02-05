@@ -65,9 +65,9 @@ char				*minus_handler(char **str, t_format f)
 		retstr = ft_strnew(i);
 		while (--i >= 0)
 			retstr[i] = ' ';
-//		tmp = retstr;
+		tmp = retstr;
 		retstr = ft_strjoin(*str, retstr);
-//		ft_strdel(&tmp);
+		ft_strdel(&tmp);
 	}
 	else
 		retstr = ft_strdup(*str);
@@ -96,9 +96,9 @@ char				*space_handler(char **str, t_format f)
 		retstr = ft_strnew(i);
 		while (--i >= 0)
 			retstr[i] = ' ';
-//		tmp = retstr;
+		tmp = retstr;
 		retstr = ft_strjoin(retstr, *str);
-//		ft_strdel(&tmp);
+		ft_strdel(&tmp);
 	}
 	else
 		retstr = ft_strdup(*str);
