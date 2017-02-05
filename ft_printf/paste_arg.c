@@ -74,7 +74,7 @@ void			options_handler(t_format f, char **str)
 			*str = flag_types[i](str, f);
 			ft_strdel(&tmp);
 		}
-	if (f.before_dot != 0)
+	if (f.before_dot != 0 && f.flags[4] != 1)
 	{
 		tmp = *str;
 		*str = space_handler(str, f);

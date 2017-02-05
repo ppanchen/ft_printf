@@ -89,7 +89,7 @@ char				*space_handler(char **str, t_format f)
 			(f.before_dot == 0 && (f.flags[1] == 0)))
 		retstr = ft_strjoin(" ", *str);
 	else if (f.before_dot < ft_strlen(*str))
-		retstr = ft_strdup(*str);
+		retstr = f.flags[4] == 1 ? ft_strjoin(" ", *str) : ft_strdup(*str);
 	else if (f.before_dot > ft_strlen(*str))
 	{
 		i = f.before_dot - ft_strlen(*str);
@@ -98,12 +98,6 @@ char				*space_handler(char **str, t_format f)
 			retstr[i] = ' ';
 		tmp = retstr;
 		retstr = ft_strjoin(retstr, *str);
-		ft_strdel(&tmp);
-	}
-	else if (f.flags[4] == 1)
-	{
-		tmp = retstr;
-		retstr = ft_strjoin(" ", retstr);
 		ft_strdel(&tmp);
 	}
 	else
