@@ -19,7 +19,7 @@ char	*c_handler(t_format f, va_list *ap)
 	str = ft_strnew(2);
 	str[0] = (char)va_arg(*ap, int);
 	if (str[0] == 0)
-		str[0] = '\303';
+		str[0] = '\251';
 	return (str);
 }
 

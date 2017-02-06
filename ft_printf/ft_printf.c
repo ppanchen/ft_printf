@@ -21,7 +21,7 @@ int			write_x(char *str)
 	ret = 0;
 	while (str[i])
 	{
-		if (str[i] == '\303')
+		if (str[i] == '\251')
 			ret += ft_putchar(0);
 		else if (str[i] == '\301')
 			ret += wcharpaste();
