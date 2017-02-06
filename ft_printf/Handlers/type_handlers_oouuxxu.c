@@ -12,10 +12,10 @@
 
 #include "../ft_printf.h"
 
-char * o_handler(t_format f, va_list *ap)
+char	*o_handler(t_format f, va_list *ap)
 {
-	long long int i;
-	char *str;
+	long long int	i;
+	char			*str;
 
 	if (ft_strstr(f.num_type, "ll") != 0)
 		i = va_arg(*ap, unsigned long long);
@@ -35,10 +35,10 @@ char * o_handler(t_format f, va_list *ap)
 	return (str);
 }
 
-char * ou_handler(t_format f, va_list *ap)
+char	*ou_handler(t_format f, va_list *ap)
 {
-	long long int i;
-	char *str;
+	long long int	i;
+	char			*str;
 
 	if (ft_strstr(f.num_type, "ll") != 0)
 		i = va_arg(*ap, unsigned long long);
@@ -58,10 +58,10 @@ char * ou_handler(t_format f, va_list *ap)
 	return (str);
 }
 
-char * u_handler(t_format f, va_list *ap)
+char	*u_handler(t_format f, va_list *ap)
 {
-	unsigned long long int i;
-	char *str;
+	unsigned long long int	i;
+	char					*str;
 
 	if (ft_strstr(f.num_type, "ll") != 0)
 		i = va_arg(*ap, unsigned long long);
@@ -81,11 +81,10 @@ char * u_handler(t_format f, va_list *ap)
 	return (str);
 }
 
-
-char * x_handler(t_format f, va_list *ap)
+char	*x_handler(t_format f, va_list *ap)
 {
-	long long int i;
-	char *str;
+	long long int	i;
+	char			*str;
 
 	if (ft_strstr(f.num_type, "ll") != 0)
 		i = va_arg(*ap, unsigned long long);
@@ -105,10 +104,10 @@ char * x_handler(t_format f, va_list *ap)
 	return (str);
 }
 
-char * xu_handler(t_format f, va_list *ap)
+char	*xu_handler(t_format f, va_list *ap)
 {
-	long long int i;
-	char *str;
+	long long int	i;
+	char			*str;
 
 	if (ft_strstr(f.num_type, "ll") != 0)
 		i = va_arg(*ap, unsigned long long);

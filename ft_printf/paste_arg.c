@@ -63,7 +63,7 @@ void			options_handler(t_format f, char **str)
 {
 	int				i;
 	t_funcs_flags	*flag_types;
-	char 			*tmp;
+	char			*tmp;
 
 	flag_types = func_fill_flags();
 	i = -1;

@@ -18,21 +18,12 @@
 #define BIT_26 67108863
 #define BIT31 2147483647
 
-static int		ft_putchar_fd2(const uint32_t s, char *rt, int size, int *ct)
+static int		ft_putchar_fd4(const uint32_t s, char *rt, int size, int *ct)
 {
-	int 	flag;
+	int		flag;
 
 	flag = 0;
-	if (s <= BIT_21 || size == 4)
-	{
-		rt[0] = ((s & 1835008) >> 18) | 240;
-		rt[1] = ((s & 258048) >> 12) | 128;
-		rt[2] = ((s & 4032) >> 6) | 128;
-		rt[3] = (s & 63) | 128;
-		(s > BIT_21) && (flag = 1);
-		ct = 4;
-	}
-	else if (s <= BIT_26 || size == 5)
+	if (s <= BIT_26 || size == 5)
 	{
 		rt[0] = ((s & 50331648) >> 24) | 248;
 		rt[1] = ((s & 16515072) >> 18) | 128;
@@ -40,7 +31,7 @@ static int		ft_putchar_fd2(const uint32_t s, char *rt, int size, int *ct)
 		rt[3] = ((s & 4032) >> 6) | 128;
 		rt[4] = (s & 63) | 128;
 		(s > BIT_26) && (flag = 1);
-		ct = 5;
+		*ct = 5;
 	}
 	else
 	{
@@ -50,8 +41,52 @@ static int		ft_putchar_fd2(const uint32_t s, char *rt, int size, int *ct)
 		rt[3] = ((s & 258048) >> 12) | 128;
 		rt[4] = ((s & 4032) >> 6) | 128;
 		rt[5] = (s & 63) | 128;
-		ct = 6;
+		*ct = 6;
 	}
+	return (flag);
+}
+
+static int		ft_putchar_fd3(const uint32_t s, char *rt, int size, int *ct)
+{
+	int		flag;
+
+	flag = 0;
+	if (s <= BIT_21 || size == 4)
+	{
+		rt[0] = ((s & 1835008) >> 18) | 240;
+		rt[1] = ((s & 258048) >> 12) | 128;
+		rt[2] = ((s & 4032) >> 6) | 128;
+		rt[3] = (s & 63) | 128;
+		(s > BIT_21) && (flag = 1);
+		*ct = 4;
+	}
+	else
+		flag = ft_putchar_fd4(s, rt, size, ct);
+	return (flag);
+}
+
+static int		ft_putchar_fd2(const uint32_t s, char *rt, int size, int *ct)
+{
+	int		flag;
+
+	flag = 0;
+	if (s <= BIT_11 || size == 2)
+	{
+		rt[0] = ((s & 1984) >> 6) | 192;
+		rt[1] = (s & 63) | 128;
+		(s > BIT_11) && (flag = 1);
+		*ct = 2;
+	}
+	else if (s <= BIT_16 || size == 3)
+	{
+		rt[0] = ((s & 61440) >> 12) | 224;
+		rt[1] = ((s & 4032) >> 6) | 128;
+		rt[2] = (s & 63) | 128;
+		(s > BIT_16) && (flag = 1);
+		*ct = 3;
+	}
+	else
+		flag = ft_putchar_fd3(s, rt, size, ct);
 	return (flag);
 }
 
@@ -59,7 +94,7 @@ size_t			ft_putchar_fd(const uint32_t s, const int fd, int size)
 {
 	char		*rt;
 	size_t		ct;
-	int 		flag;
+	int			flag;
 
 	rt = ft_strnew(6);
 	ct = 0;
@@ -69,21 +104,6 @@ size_t			ft_putchar_fd(const uint32_t s, const int fd, int size)
 		rt[0] = s;
 		(s > BIT_7) && (flag = 1);
 		ct = 1;
-	}
-	else if (s <= BIT_11 || size == 2)
-	{
-		rt[0] = ((s & 1984) >> 6) | 192;
-		rt[1] = (s & 63) | 128;
-		(s > BIT_11) && (flag = 1);
-		ct = 2;
-	}
-	else if (s <= BIT_16 || size == 3)
-	{
-		rt[0] = ((s & 61440) >> 12) | 224;
-		rt[1] = ((s & 4032) >> 6) | 128;
-		rt[2] = (s & 63) | 128;
-		(s > BIT_16) && (flag = 1);
-		ct = 3;
 	}
 	else
 		flag = ft_putchar_fd2(s, rt, size, &ct);

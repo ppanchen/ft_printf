@@ -62,10 +62,10 @@ char	*du_handler(t_format f, va_list *ap)
 	return (str);
 }
 
-char * uu_handler(t_format f, va_list *ap)
+char	*uu_handler(t_format f, va_list *ap)
 {
-	unsigned long long int i;
-	char *str;
+	unsigned long long int	i;
+	char					*str;
 
 	i = va_arg(*ap, unsigned long int);
 	str = ft_itoa_base_udw(i, 10);

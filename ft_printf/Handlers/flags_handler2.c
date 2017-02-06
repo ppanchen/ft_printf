@@ -15,20 +15,21 @@
 char				*retstr_fill(int i, char **str, char c, int znak)
 {
 	char	*retstr;
-	char 	*tmp;
+	char	*tmp;
 
 	retstr = ft_strnew(i + 1);
 	while (--i >= 0)
 		retstr[i] = c;
 	retstr[0] = znak == 2 ? ' ' : c;
 	tmp = retstr;
-	retstr = znak == 1 ? ft_strjoin(retstr, *str + 1) : ft_strjoin(retstr, *str);
+	retstr = znak == 1 ? ft_strjoin(retstr, *str + 1) :\
+	ft_strjoin(retstr, *str);
 	ft_strdel(&tmp);
 	if (znak == 1)
 	{
 		tmp = retstr;
 		retstr = ft_atoi(*str) < 0 ? ft_strjoin("-", retstr) : \
-        ft_strjoin("+", retstr);
+		ft_strjoin("+", retstr);
 		ft_strdel(&tmp);
 	}
 	return (retstr);
@@ -36,7 +37,7 @@ char				*retstr_fill(int i, char **str, char c, int znak)
 
 char				*zero_handler2(char **str, t_format f)
 {
-	char 	*retstr;
+	char	*retstr;
 
 	if (f.before_dot > ft_strlen(*str) && f.after_dot != -1)
 	{

@@ -14,7 +14,6 @@
 
 wchar_t	*width_for_unic(t_format *f, wchar_t *str, int *size)
 {
-	char	*tmp;
 	wchar_t	*ret;
 	int		i;
 	int		r;
@@ -26,29 +25,22 @@ wchar_t	*width_for_unic(t_format *f, wchar_t *str, int *size)
 	while (str[++i] != '\0')
 	{
 		r += ft_putchar_fd(str[i], -2, t);
-		if (t != -1)
-			t -= ft_putchar_fd(str[i], -2, t);
+		(t != -1) && (t -= ft_putchar_fd(str[i], -2, t));
 	}
 	if (f->before_dot > r && f->flags[2] == 0 && f->flags[3] == 0)
-	{
-		i = f->before_dot - r;
-		tmp = ft_strnew(i);
-		i--;
-		while (i + 1)
-			tmp[i--] = ' ';
-		ret = ft_ustrdup(tmp);
-		if (*size != -1)
-			*size += ft_ustrlen(ret);
-		ret = ft_ustrjoin(ret, str);
-	}
+		ret = uretstr_fill(f->before_dot - r, str, 0, size);
 	else
-		ret = str;
+	{
+		i = ft_ustrlen(str);
+		ret = (wchar_t *)malloc(sizeof(wchar_t) * (++i));
+		while (--i >= 0)
+			ret[i] = str[i];
+	}
 	return (ret);
 }
 
 wchar_t	*minus_for_unic(t_format *f, wchar_t *str, int *size)
 {
-	char	*tmp;
 	wchar_t	*ret;
 	int		i;
 	int		r;
@@ -60,29 +52,22 @@ wchar_t	*minus_for_unic(t_format *f, wchar_t *str, int *size)
 	while (str[++i] != '\0')
 	{
 		r += ft_putchar_fd(str[i], -2, t);
-		if (t != -1)
-			t -= ft_putchar_fd(str[i], -2, t);
+		(t != -1) && (t -= ft_putchar_fd(str[i], -2, t));
 	}
 	if (f->before_dot > r)
-	{
-		i = f->before_dot - r;
-		tmp = ft_strnew(i);
-		i--;
-		while (i + 1)
-			tmp[i--] = ' ';
-		ret = ft_ustrdup(tmp);
-		if (*size != -1)
-			*size += ft_ustrlen(ret);
-		ret = ft_ustrjoin(str, ret);
-	}
+		ret = uretstr_fill(f->before_dot - r, str, 1, size);
 	else
-		ret = str;
+	{
+		i = ft_ustrlen(str);
+		ret = (wchar_t *)malloc(sizeof(wchar_t) * (++i));
+		while (--i >= 0)
+			ret[i] = str[i];
+	}
 	return (ret);
 }
 
 wchar_t	*zero_for_unic(t_format *f, wchar_t *str, int *size)
 {
-	char	*tmp;
 	wchar_t	*ret;
 	int		i;
 	int		r;
@@ -94,23 +79,17 @@ wchar_t	*zero_for_unic(t_format *f, wchar_t *str, int *size)
 	while (str[++i] != '\0')
 	{
 		r += ft_putchar_fd(str[i], -2, t);
-		if (t != -1)
-			t -= ft_putchar_fd(str[i], -2, t);
+		(t != -1) && (t -= ft_putchar_fd(str[i], -2, t));
 	}
 	if (f->before_dot > r)
-	{
-		i = f->before_dot - r;
-		tmp = ft_strnew(i);
-		i--;
-		while (i + 1)
-			tmp[i--] = '0';
-		ret = ft_ustrdup(tmp);
-		if (*size != -1)
-			*size += ft_ustrlen(ret);
-		ret = ft_ustrjoin(ret, str);
-	}
+		ret = uretstr_fill_zero(f->before_dot - r, str, size);
 	else
-		ret = str;
+	{
+		i = ft_ustrlen(str);
+		ret = (wchar_t *)malloc(sizeof(wchar_t) * (++i));
+		while (--i >= 0)
+			ret[i] = str[i];
+	}
 	return (ret);
 }
 
@@ -123,8 +102,7 @@ int		unicodhandler(t_format *f, va_list *ap)
 			ft_strcmp(f->num_type, "l") == 0))
 	{
 		str = va_arg(*ap, wchar_t *);
-		if (!str)
-			str = ft_ustrdup("(null)");
+		(!str) && (str = ft_ustrdup("(null)"));
 	}
 	else if (f->spec == 'C' || (f->spec == 'c' &&
 			ft_strcmp(f->num_type, "l") == 0))

@@ -52,7 +52,6 @@ size_t			ft_putchar(const uint32_t s)
 	size_t		ct;
 
 	rt = ft_strnew(6);
-	ct = 0;
 	if (s <= BIT_7)
 		rt[0] = s;
 	else if (s <= BIT_11)

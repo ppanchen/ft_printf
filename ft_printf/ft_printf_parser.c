@@ -95,24 +95,21 @@ char		*ft_checker(char *str, va_list *ap)
 	int			i;
 	char		*c;
 	char		*retstr;
-	char 		*tmp;
+	char		*tmp;
 
 	i = 0;
 	while (str[++i])
 	{
-		if (ft_strchr(FLAGS, str[i]) != 0 || str[i] == '.' ||
-				ft_isdigit(str[i]) != 0 || ft_strchr(NUM_TYPES, str[i]) != 0)
+		if (isnt_valid(str[i]))
 		{
 			c = 0;
 			break ;
 		}
-		c = ft_strchr(TYPES, str[i]);
-		if (c != 0)
+		if ((c = ft_strchr(TYPES, str[i])) != 0)
 			break ;
 	}
 	if (c == NULL && (i = 1))
-		while (str[i] && (ft_strchr(FLAGS, str[i]) != 0 || str[i] == '.' ||
-				ft_isdigit(str[i]) != 0 || ft_strchr(NUM_TYPES, str[i]) != 0))
+		while (str[i] && isnt_valid(str[i]))
 			i++;
 	c = str + i;
 	retstr = ft_fill_struct(c++, str, ap);

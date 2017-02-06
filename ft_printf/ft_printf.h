@@ -42,7 +42,6 @@ typedef	char	 		*(*t_funcs_types)(t_format f, va_list *ap);
 typedef	char			*(*t_funcs_flags)(char **str, t_format f);
 int 					ft_printf(const char * restrict format, ...);
 int	                	write_x(char *str);
-//int 					ft_foreach(char **vrs, va_list *ap, char **start);
 char					*ft_checker(char *str, va_list *ap);
 char					*paste_arg(t_format *f, va_list *ap);
 char 					*s_handler(t_format f, va_list *ap);
@@ -72,5 +71,7 @@ wchar_t					*ft_ustrdup(const char *s1);
 wchar_t					*ft_ustrjoin(wchar_t *s1, wchar_t *s2);
 wchar_t					*ft_ustrdupu(wchar_t *s1);
 char					*retstr_fill(int i, char **str, char c, int znak);
-
+int 					isnt_valid(char str);
+wchar_t					*uretstr_fill(int i, wchar_t *str, int rev, int *size);
+wchar_t					*uretstr_fill_zero(int i, wchar_t *str, int *size);
 #endif

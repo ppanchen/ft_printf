@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-int		write_x(char *str)
+int			write_x(char *str)
 {
 	int i;
 	int ret;
@@ -32,15 +32,15 @@ int		write_x(char *str)
 	return (ret);
 }
 
-int		ft_isnt_valid(char str)
+int			isnt_valid(char str)
 {
-	if (ft_strchr(FLAGS, str) != 0 || ft_strchr(NUM_TYPES, str)
-		|| str == '.' || (str >= '0' && str <= '9'))
+	if (ft_strchr(FLAGS, str) != 0 || str == '.' ||
+		ft_isdigit(str) != 0 || ft_strchr(NUM_TYPES, str) != 0)
 		return (1);
 	return (0);
 }
 
-char	**parse_str(char *str)
+char		**parse_str(char *str)
 {
 	int		i;
 	int		j;
@@ -55,7 +55,7 @@ char	**parse_str(char *str)
 	while (*str)
 		if (*str == '%' && (j = 1))
 		{
-			while (ft_isnt_valid(str[j]))
+			while (isnt_valid(str[j]))
 				j++;
 			(ft_strchr(TYPES, str[j]) || str[j] == '%') && (j++);
 			while (str[j] != '%' && str[j] != 0)
@@ -69,7 +69,7 @@ char	**parse_str(char *str)
 	return (vrs);
 }
 
-int		ft_printf(const char *format, ...)
+int			ft_printf(const char *format, ...)
 {
 	va_list	ap;
 	char	**str;
