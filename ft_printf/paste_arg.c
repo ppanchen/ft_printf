@@ -52,9 +52,8 @@ t_funcs_flags	*func_fill_flags(void)
 
 int				is_upersc(t_format f)
 {
-	if (f.spec == 'S' || f.spec == 'C' ||
-		(f.spec == 's' && ft_strcmp(f.num_type, "l") == 0) ||
-		(f.spec == 'c' && ft_strcmp(f.num_type, "l") == 0))
+	if (f.spec == 'S' ||
+		(f.spec == 's' && ft_strcmp(f.num_type, "l") == 0))
 		return (1);
 	return (0);
 }
